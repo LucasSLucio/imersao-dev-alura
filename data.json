@@ -11,5 +11,23 @@
     "descricao": "O Python é a linguagem da ciência de dados e IA.",
     "ano": 1991,
     "link": "https://docs.python.org/pt-br/3.14/"
+},
+{
+    "nome": "PHP",
+    "descricao": "PHP é uma linguagem de script popular para desenvolvimento web, conhecida por sua simplicidade inicial e também por suas inconsistências.",
+    "ano": 1995,
+    "link": "https://www.php.net/manual/pt_BR/"
+},
+{
+    "nome": "COBOL",
+    "descricao": "COBOL (Common Business-Oriented Language) é uma das linguagens de programação mais antigas, ainda em uso em sistemas legados de grande porte.",
+    "ano": 1959,
+    "link": "https://www.ibm.com/docs/pt/cobol-for-zos/6.4?topic=cobol"
+},
+{
+    "nome": "Brainfuck",
+    "descricao": "Uma linguagem de programação esotérica minimalista, criada para ser um desafio e não para uso prático. Um verdadeiro 'mau exemplo' proposital.",
+    "ano": 1993,
+    "link": "https://pt.wikipedia.org/wiki/Brainfuck"
 }
 ]

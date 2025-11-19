@@ -1,6 +1,8 @@
 let dados = [];
 
-function iniciarBusca() {
-    let resposta = fetch("data.json");
-    console.log(resposta);
+async function iniciarBusca() {
+    let resposta = await fetch("data.json");
+    dados = await resposta.json();
+   
+    console.log(dados);
 }
