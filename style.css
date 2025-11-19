@@ -178,7 +178,7 @@ article a:hover {
 }
 
 .footer-links a:hover {
-    color: var(--accent-color); /* Muda a cor do link ao passar o mouse (variável não definida) */
+    color: var(--primary-color); /* Muda a cor do link ao passar o mouse */
 }
 
 @media (max-width: 768px) {
