@@ -1,33 +1,33 @@
 [
 {
-    "nome": "JavaScript", 
-    "descricao": "O JS é a linguagem da web",
-    "ano": 1995,
-    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    "nome": "Mouse", 
+    "descricao": "O mouse é um dispositivo de apontamento usado para controlar o cursor na tela. Foi inventado em **1964 por Douglas Engelbart** como parte de um projeto para tornar a interação com computadores mais natural. O protótipo original era feito de madeira e tinha duas rodas internas. Ganhou reconhecimento mundial após a demonstração de 1968 e evoluiu de modelos com bola para ópticos, a laser e sem fio",
+    "ano": 1964,
+    "link": "https://tecnoblog.net/responde/quem-inventou-o-mouse/"
 
 },
 {
-    "nome": "Python", 
-    "descricao": "O Python é a linguagem da ciência de dados e IA.",
-    "ano": 1991,
-    "link": "https://docs.python.org/pt-br/3.14/"
+    "nome": "Teclado", 
+    "descricao": "O teclado é um periférico de entrada inspirado diretamente nas máquinas de escrever criadas no século XIX. O layout QWERTY, ainda dominante, veio dessas máquinas. O primeiro uso do teclado diretamente ligado a um computador ocorreu em **1956**, quando pesquisadores do MIT conectaram um teclado ao computador Whirlwind, substituindo cartões perfurados e tornando a digitação muito mais prática",
+    "ano": 1956,
+    "link": "https://www.computerhistory.org/tdih/july/4/"
 },
 {
-    "nome": "PHP",
-    "descricao": "PHP é uma linguagem de script popular para desenvolvimento web, conhecida por sua simplicidade inicial e também por suas inconsistências.",
-    "ano": 1995,
-    "link": "https://www.php.net/manual/pt_BR/"
+    "nome": "Monitor",
+    "descricao": "O monitor é o dispositivo que exibe informações gráficas e textuais. Ele surgiu a partir da tecnologia das televisões de tubo (CRT) usadas no século XX. A ideia de monitores dedicados a computadores se consolidou nos anos 1970 com sistemas como o Xerox Alto, que introduziu interfaces gráficas e exigia uma tela mais avançada que as usadas anteriormente. Evoluiu de CRT para LCD, LED e OLED.",
+    "ano": 1970,
+    "link": "[https://www.tecmundo.com.br/historia/9528-a-historia-da-interface-grafica.htm"
 },
 {
-    "nome": "COBOL",
-    "descricao": "COBOL (Common Business-Oriented Language) é uma das linguagens de programação mais antigas, ainda em uso em sistemas legados de grande porte.",
-    "ano": 1959,
-    "link": "https://www.ibm.com/docs/pt/cobol-for-zos/6.4?topic=cobol"
+    "nome": "Headset",
+    "descricao": "O headset combina fones de ouvido e microfone. Sua origem está na telefonia e na aviação no início do século XX, onde era necessário ouvir e falar com as mãos livres. Com o avanço da computação pessoal e, depois, da internet, os headsets se tornaram essenciais para comunicação digital, jogos online e videoconferências, especialmente a partir dos anos 1990 e 2000.",
+    "ano": "ínicio século xx e populariazdo nos anos 90",
+    "link": ""
 },
 {
-    "nome": "Brainfuck",
-    "descricao": "Uma linguagem de programação esotérica minimalista, criada para ser um desafio e não para uso prático. Um verdadeiro 'mau exemplo' proposital.",
-    "ano": 1993,
-    "link": "https://pt.wikipedia.org/wiki/Brainfuck"
+    "nome": "Mousepad",
+    "descricao": "O mousepad é uma superfície para melhorar a precisão, o conforto e o controle do mouse. O acessório foi criado em **1969 por Jack Kelley**, inicialmente para dar suporte aos primeiros mouses mecânicos. Ele evoluiu de simples pads de tecido para superfícies especializadas usadas em jogos e produtividade, incluindo pads rígidos, de vidro e tamanhos extragrandes.",
+    "ano": 1969,
+    "link": "https://tecnoblog.net/"
 }
 ]

@@ -13,22 +13,44 @@ async function iniciarBusca() {
 
 function realizarBusca() {
     let termo = document.querySelector("input").value.toLowerCase().trim();
+    // Define o comprimento mínimo necessário para buscar
+    const COMPRIMENTO_MINIMO = 3; 
 
     // sempre limpa antes
     cardContainer.innerHTML = "";
 
-    // 🚫 Se o campo estiver vazio, não mostra nada
+    // 1. Se o campo estiver vazio, não mostra nada
     if (termo === "") {
         cardContainer.innerHTML = "<p style='padding:1rem;'>Digite algo para buscar.</p>";
         return;
     }
 
-    // faz o filtro normalmente
-    let filtrados = dados.filter(dado =>
-        dado.nome.toLowerCase().includes(termo) ||
-        dado.descricao.toLowerCase().includes(termo) ||
-        String(dado.ano).includes(termo)
+    // 2. NOVA REGRA: Verifica o comprimento do termo
+    if (termo.length < COMPRIMENTO_MINIMO) {
+        cardContainer.innerHTML = `<p style='padding:1rem;'>O termo de busca deve ter pelo menos ${COMPRIMENTO_MINIMO} caracteres.</p>`;
+        return;
+    }
+
+    // TENTA ENCONTRAR CORRESPONDÊNCIA EXATA NO NOME PRIMEIRO
+    let filtradosExatos = dados.filter(dado => 
+        dado.nome.toLowerCase() === termo
     );
+
+    let filtrados;
+
+    if (filtradosExatos.length > 0) {
+       
+        filtrados = filtradosExatos;
+    } else {
+        
+        filtrados = dados.filter(dado =>
+            dado.nome.toLowerCase().includes(termo) ||
+            dado.descricao.toLowerCase().includes(termo) ||
+            String(dado.ano).includes(termo)
+        );
+    }
+    
+    // --- FIM DA LÓGICA DE FILTRO ---
 
     if (filtrados.length === 0) {
         cardContainer.innerHTML = "<p style='padding:1rem;'>Nenhum resultado encontrado.</p>";

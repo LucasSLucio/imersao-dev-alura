@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');; /* Importa a fonte Quicksand do Google Fonts */
 
 * {
     box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
