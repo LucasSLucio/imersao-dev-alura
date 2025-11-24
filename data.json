@@ -1,33 +1,68 @@
 [
 {
-    "nome": "Mouse", 
-    "descricao": "O mouse é um dispositivo de apontamento usado para controlar o cursor na tela. Foi inventado em **1964 por Douglas Engelbart** como parte de um projeto para tornar a interação com computadores mais natural. O protótipo original era feito de madeira e tinha duas rodas internas. Ganhou reconhecimento mundial após a demonstração de 1968 e evoluiu de modelos com bola para ópticos, a laser e sem fio",
-    "ano": 1964,
-    "link": "https://tecnoblog.net/responde/quem-inventou-o-mouse/"
-
+"id": "rcp",
+"nome": "Ressuscitação Cardiopulmonar (RCP)",
+"categoria": "Parada Cardiorrespiratória",
+"descricao": "Sinais: pessoa inconsciente, sem respiração normal ou apenas gasping.\nAção imediata: 1) Chame ajuda (SAMU 192 / Bombeiros 193). 2) Posicione as mãos no centro do tórax e faça compressões fortes e rápidas (100-120 compressões por minuto) com profundidade de ~5-6 cm em adultos. 3) Alternar 30 compressões com 2 ventilações se souber fazer respiração boca-a-boca; caso contrário, faça compressões contínuas até a chegada do socorro.\nObservações: em bebês e crianças a técnica e a profundidade mudam; procure orientação específica se disponível.",
+"numero_recomendado": "192",
+"imagem": "https://st2.depositphotos.com/4297405/7522/v/450/depositphotos_75226693-stock-illustration-first-aid-resuscitation-cpr-massage.jpg",
+"tags": ["RCP","coração","emergência"],
+"saiba_mais": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/parada-card%C3%ADaca-e-reanima%C3%A7%C3%A3o-cardiopulmonar-rcp/parada-card%C3%ADaca-e-reanima%C3%A7%C3%A3o-cardiopulmonar-rcp#Tratamento-de-primeiros-socorros-para-parada-card%C3%ADaca_v829389_pt",
+"video_relacionado": "https://www.youtube.com/watch?v=nCNJOOyMbVM"
 },
 {
-    "nome": "Teclado", 
-    "descricao": "O teclado é um periférico de entrada inspirado diretamente nas máquinas de escrever criadas no século XIX. O layout QWERTY, ainda dominante, veio dessas máquinas. O primeiro uso do teclado diretamente ligado a um computador ocorreu em **1956**, quando pesquisadores do MIT conectaram um teclado ao computador Whirlwind, substituindo cartões perfurados e tornando a digitação muito mais prática",
-    "ano": 1956,
-    "link": "https://www.computerhistory.org/tdih/july/4/"
+"id": "convulsao",
+"nome": "Crise de Epilepsia / Convulsão",
+"categoria": "Convulsões",
+"descricao": "Sinais: contrações musculares involuntárias, perda de consciência, respiração irregular.\nAção imediata: 1) Proteja a cabeça da pessoa (coloque algo macio sob a cabeça). 2) Afaste objetos perigosos e afrouxe roupas apertadas. 3) Não segure a pessoa firmemente e NÃO coloque objetos entre os dentes. 4) Após a crise, coloque a pessoa em posição lateral de segurança (decúbito lateral) para manter vias aéreas livres e observe a respiração.\nQuando chamar: se a crise durar mais de 5 minutos, se houver várias crises seguidas sem recuperação, se for a primeira crise, ou se a pessoa estiver grávida/diabética/lesionada — ligue para o SAMU (192).",
+"numero_recomendado": "192",
+"imagem": "https://img.freepik.com/vetores-gratis/ilustracao-de-epilepsia-de-design-plano-desenhado-a-mao_23-2149289939.jpg?semt=ais_hybrid&w=740&q=80",
+"tags": ["epilepsia","convulsao","primeiros_socorros"],
+"saiba_mais": "https://www.gov.br/saude/pt-br/assuntos/noticias/2022/marco/epilepsia-conheca-a-doenca-e-os-tratamentos-disponiveis-no-sus",
+"video_relacionado": "https://www.youtube.com/watch?v=upct11c0f9E"
 },
 {
-    "nome": "Monitor",
-    "descricao": "O monitor é o dispositivo que exibe informações gráficas e textuais. Ele surgiu a partir da tecnologia das televisões de tubo (CRT) usadas no século XX. A ideia de monitores dedicados a computadores se consolidou nos anos 1970 com sistemas como o Xerox Alto, que introduziu interfaces gráficas e exigia uma tela mais avançada que as usadas anteriormente. Evoluiu de CRT para LCD, LED e OLED.",
-    "ano": 1970,
-    "link": "[https://www.tecmundo.com.br/historia/9528-a-historia-da-interface-grafica.htm"
+"id": "engasgo_adulto/criança",
+"nome": "Engasgamento (Adulto - Manobra de Heimlich)",
+"categoria": "Asfixia / Engasgamento",
+"descricao": "Sinais: pessoa incapaz de falar/respirar, tosse ineficaz, sinais de desespero.\nAção imediata: 1) Pergunte se a pessoa está engasgada. Se não conseguir respirar, aplique 5 golpes nas costas com a pessoa inclinada para frente. 2) Se isso não funcionar, realizar 5 compressões abdominais (manobra de Heimlich) em adultos até a obstrução sair. 3) Se a pessoa perder a consciência, iniciar RCP e chamar o SAMU.\nObservação: em gestantes e pessoas obesas, aplicar compressões torácicas em vez de abdominais.",
+"numero_recomendado": "192",
+"imagem": "https://i0.wp.com/d3043uog1ad1l6.cloudfront.net/uploads/2021/07/1-12.png?resize=640%2C716&ssl=1",
+"tags": ["engasgo","heilmlich","asfixia"],
+"saiba_mais": "https://www.msdmanuals.com/pt/profissional/medicina-de-cuidados-cr%C3%ADticos/como-fazer-procedimentos-b%C3%A1sicos-para-as-vias-respirat%C3%B3rias/como-inserir-uma-c%C3%A2nula-nasofar%C3%ADngea",
+"video_relacionado": "https://www.youtube.com/watch?v=uImVd4rBlPA&t=51s"
 },
 {
-    "nome": "Headset",
-    "descricao": "O headset combina fones de ouvido e microfone. Sua origem está na telefonia e na aviação no início do século XX, onde era necessário ouvir e falar com as mãos livres. Com o avanço da computação pessoal e, depois, da internet, os headsets se tornaram essenciais para comunicação digital, jogos online e videoconferências, especialmente a partir dos anos 1990 e 2000.",
-    "ano": "ínicio século xx e populariazdo nos anos 90",
-    "link": ""
+"id": "afogamento",
+"nome": "Afogamento",
+"categoria": "Afogamento",
+"descricao": "O que fazer em caso de afogamento. Garanta sua segurança e peça ajuda. Ligue 193 (Bombeiros) ou 192 (SAMU).Tente resgatar sem entrar na água: Jogue objetos flutuantes. Use cabo, galho ou boia com corda. Entre na água apenas se souber nadar. Após retirar a vítima, verifique respiração (VOS):Ver o tórax, Ouvir a respiração, Sentir o ar. Se respirando: deixar deitada de lado e manter aquecida. Se inconsciente e sem respirar: Deitar de costas e iniciar RCP: 30 compressões + 2 ventilações. Manter até chegada do socorro.",
+"numero_recomendado": "192",
+"imagem": "https://st2.depositphotos.com/2108431/7417/v/450/depositphotos_74171331-stock-illustration-drowning-man-screaming-for-help.jpg",
+"tags": ["afogamento","respiracao","agua"],
+"saiba_mais": "https://www.unimedfortaleza.com.br/blog/cuidar-de-voce/dicas-de-primeiros-socorros-em-caso-de-afogamento",
+"video_relacionado": "https://www.youtube.com/watch?v=AUTu3cxrzic"
 },
 {
-    "nome": "Mousepad",
-    "descricao": "O mousepad é uma superfície para melhorar a precisão, o conforto e o controle do mouse. O acessório foi criado em **1969 por Jack Kelley**, inicialmente para dar suporte aos primeiros mouses mecânicos. Ele evoluiu de simples pads de tecido para superfícies especializadas usadas em jogos e produtividade, incluindo pads rígidos, de vidro e tamanhos extragrandes.",
-    "ano": 1969,
-    "link": "https://tecnoblog.net/"
+"id": "queimadura",
+"nome": "Queimadura",
+"categoria": "Queimaduras",
+"descricao": "Tipos: térmica, química e elétrica.\nAção imediata para queimadura térmica leve: 1) Resfrie a área com água corrente por pelo menos 10 minutos. 2) Remova anéis e roupas soltas da área (se não estiver grudada). 3) Não aplique pomadas caseiras, pasta de dente ou gelo diretamente.\nQueimaduras graves: área extensa, comprometimento de vias aéreas, pele carbonizada ou dor intensa — ligar 192 (SAMU) ou 193 dependendo do caso e da orientação local.",
+"numero_recomendado": "193",
+"imagem": "https://i.pinimg.com/736x/10/ca/50/10ca50431cc9ede557f52b631e80768b.jpg",
+"tags": ["queimadura","emergencia"],
+"saiba_mais": "https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2021/09/saiba-como-agir-em-caso-de-queimaduras-leves-ou-graves",
+"video_relacionado": "https://www.youtube.com/shorts/OrmvOiQdcaw"
+},
+{
+"id": "hemorragia",
+"nome": "Hemorragia (sangramento intenso)",
+"categoria": "Sangramento",
+"descricao": "Sinais: sangramento que não para ou é muito rápido.\nAção imediata: 1) Vista luvas se possível. 2) Aplique pressão direta e firme sobre o ferimento com um pano limpo ou gaze. 3) Se o sangramento for na perna ou braço, eleve o membro acima do nível do coração. 4) Não remova o primeiro curativo, adicione mais por cima se o sangue atravessá-lo. 5) Mantenha a vítima aquecida e em repouso. 6) Chame o socorro.",
+"numero_recomendado": "192",
+"imagem": "https://www.mamaeecia.com.br/wp-content/uploads/sangramento-do-nariz.png",
+"tags": ["sangramento","ferimento","pressao"],
+"saiba_mais": "https://inbraep.com.br/publicacoes/hemorragia/",
+"video_relacionado": "https://www.youtube.com/watch?v=_xICY4VBTfw"
 }
 ]

@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Base de conhecimento</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guia de Primeiros Socorros | Ação Imediata</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Base de conhecimento</h1>
-        <div>
-            <input type="text" placeholder="Digite o nome de um periferico">
-            <button id="botao-busca" onclick="iniciarBusca()">Buscar</button>
+    <div class="app">
+        <header class="hidden-on-initial">
+            <h1>Guia de Primeiros Socorros</h1>
+        </header>
 
-        </div>
-    </header>
 
-    <main>
+        <main class="home-layout">
+            <section class="initial-content">
+                <div class="intro-text">
+                    <h1> Ação Imediata Salva Vidas</h1>
+                    <p>
+                        Este é um guia de busca rápida de conhecimento para a prática de <strong>primeiros socorros</strong> em situações críticas. 
+                        Saber o que fazer nos primeiros minutos é de suma importância até a chegada do socorro médico.
+                    </p>
+                </div>
+            </section>
+            
+            <div class="search-container">
+                <input id="search" type="text" placeholder="Procure: ex. convulsão, RCP, queimadura" />
+                <button id="btn-busca">Buscar</button>
+                <select id="filtro-categoria" class="hidden">
+                    <option value="">Todas categorias</option>
+                </select>
+            </div>
+
+            <section class="card-container"></section>
+        </main>
+
+
+        <footer>
+           <div class="footer-inner">
     
-        <section class="card-container">
-            <!-- <article class="card">
-                <h2>JavaScript</h2>
-                <p>1995</p>
-                <p>JavaScript é uma linguagem de programação</p>
-                <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Leia mais</a></p>
-            </article>
+    <div class="emergency-numbers">
+        <p>
+             <strong>EMERGÊNCIA (BRASIL): </strong><span class="samu"> SAMU: <a href="tel:192">192</a></span> — 
+            <span class="bombeiros">BOMBEIROS: <a href="tel:193">193</a></span>
+        </p>
+    </div>
 
-           <article class="card">
-                <h2>Python</h2>
-                <p>1991</p>
-                <p>Python é uma linguagem de programação</p>
-                <p><a href="https://docs.python.org/pt-br/3.14/" target="_blank">Leia mais</a></p>
-            </article> -->
+    <div class="creditos">
+         Feito por Lucas Silva durante a Imersão alura | Busque sempre por fontes médicas oficiais.
+    </div>
 
-        </section>
+    <div class="social-links">
+        <a href="https://github.com/LucasSLucio" target="_blank">GitHub</a> | 
+        <a href="https://www.linkedin.com/in/lucas-silva33/" target="_blank">LinkedIn</a>
+    </div>
+</div>
+        </footer>
+
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <button id="modal-close" class="close">×</button>
+                <img id="modal-img" src="" alt="imagem" />
+                <h2 id="modal-title"></h2>
+                <p id="modal-categoria"></p>
+                <pre id="modal-desc"></pre>
+
+                <p class="modal-source-links">
+                    <span id="modal-fonte-oficial"></span> 
+                    <span id="modal-video-tutorial"></span>
+                </p>
+
+                <div class="modal-actions">
+                    <a id="btn-call" class="call" href="">Ligar: <span id="numero-ligar"></span></a>
+                    <button id="btn-copy" class="copy">Copiar instruções</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    </main>
-
-    <footer class="footer">
-        <ul class="footer-links">
-            <li>
-                <a href="https://github.com/LucasSLucio" target="_blank">Github</a>
-            </li>
-
-            <li>
-                <a href="https://www.linkedin.com/in/lucas-silva33/" target="_blank">Linkedin</a>
-            </li>
-        </ul>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
